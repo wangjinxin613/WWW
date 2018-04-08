@@ -1,0 +1,99 @@
+<div data-options="dxView : { name: 'myfollow', title: '我的关注', pane: 'master'} ">
+    <div data-bind="dxCommand: { onExecute: refreshList, id: 'refresh', title: 'Refresh', icon: 'refresh' }"></div>
+    <div data-options="dxContent : { targetPlaceholder: 'content' } " class="dx-content-background dx-form-background">
+        <div class="share-head-index">
+            <div class="share-head">
+                <a class="active">我的关注</a>
+            </div>
+            <div class="share-head">
+                <a class="">我的粉丝</a>
+            </div>
+            <div class="clear"></div>
+        </div>
+
+        <div data-bind="dxScrollView: scrollOptions">
+            <div class="follow-list">
+                <img src="../images/cat/headimg.jpg">
+                <div class="follow-msg">
+                    <p class="p1">会员_111</p>
+                    <p class="p2">
+                        <span>实名认证</span>
+                        <span>保证金</span>
+                        <span>设计师</span>
+                        <span>鉴定师</span>
+                    </p>
+                    <p class="p3">粉丝：56544 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;分享：188</p>
+                </div>
+                <div class="follow-status">
+                    正在关注
+                </div>
+            </div>
+            <div class="follow-list">
+                <img src="../images/cat/headimg.jpg">
+                <div class="follow-msg">
+                    <p class="p1">会员_111</p>
+                    <p class="p2">
+                        <span>实名认证</span>
+                        <span>保证金</span>
+                        <span>设计师</span>
+                        <span>鉴定师</span>
+                    </p>
+                    <p class="p3">粉丝：56544 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;分享：188</p>
+                </div>
+                <div class="follow-status">
+                    正在关注
+                </div>
+            </div>
+            <div class="follow-list">
+                <img src="../images/cat/headimg.jpg">
+                <div class="follow-msg">
+                    <p class="p1">会员_111</p>
+                    <p class="p2">
+                        <span>实名认证</span>
+                        <span>保证金</span>
+                        <span>设计师</span>
+                        <span>鉴定师</span>
+                    </p>
+                    <p class="p3">粉丝：56544 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;分享：188</p>
+                </div>
+                <div class="follow-status">
+                    正在关注
+                </div>
+            </div>
+            <div class="follow-list">
+                .
+                <img src="../images/cat/headimg.jpg">
+                <div class="follow-msg">
+                    <p class="p1">会员_111</p>
+                    <p class="p2">
+                        <span>实名认证</span>
+                        <span>保证金</span>
+                        <span>设计师</span>
+                        <span>鉴定师</span>
+                    </p>
+                    <p class="p3">粉丝：56544 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;分享：188</p>
+                </div>
+                <div class="follow-status">
+                    正在关注
+                </div>
+            </div>
+            <div class="follow-list">
+                <img src="../images/cat/headimg.jpg">
+                <div class="follow-msg">
+                    <p class="p1">会员_111</p>
+                    <p class="p2">
+                        <span>实名认证</span>
+                        <span>保证金</span>
+                        <span>设计师</span>
+                        <span>鉴定师</span>
+                    </p>
+                    <p class="p3">粉丝：56544 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;分享：188</p>
+                </div>
+                <div class="follow-status">
+                    正在关注
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

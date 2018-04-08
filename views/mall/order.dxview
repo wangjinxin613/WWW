@@ -1,0 +1,42 @@
+<div data-options="dxView : { name: 'order', title: '确认订单', pane: 'master'} ">
+    <div data-bind="dxCommand: { onExecute: refreshList, id: 'refresh', title: 'Refresh', icon: 'refresh' }"></div>
+    <div data-options="dxContent : { targetPlaceholder: 'content' } " class="dx-content-background dx-form-background">
+        <div data-bind="dxScrollView: scrollOptions">
+
+            <div class="order-list">
+                <div class="single">
+                    <img src="../images/cat/zuanshi.jpg">
+                    <div class="right">
+                        <p>翡翠玉雕件</p>
+                        <p class="p2">￥1000</p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="single">
+                    <img src="../images/cat/zuanshi.jpg">
+                    <div class="right">
+                        <p>翡翠玉雕件</p>
+                        <p class="p2">￥1000</p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <!-- 添加地址 -->
+            <div class="address">
+                添加地址
+            </div>
+            <div class="order-setting">
+                <p>中检证书 <input type="checkbox"> <em>需要中检证书</em></p>
+                <p>商品售价<span>￥10000</span></p>
+                <p class="p3">总计<span>￥10000</span></p>
+            </div>
+
+
+        </div>
+        <!-- 提交订单 -->
+        <div class="order-submit">
+            <span>合计：<em>￥10000.00</em></span>
+            <button class="order-submit-btn">提交订单</button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,105 @@
+﻿/* 商圈 */
+.arcitle-list {
+    background: #fff;
+    margin-top: 8px;
+    position: relative;
+    overflow: hidden;
+}
+
+    .arcitle-list .content-top {
+        width: 100%;
+        padding: 5px 15px;
+        overflow: hidden;
+    }
+
+        .arcitle-list .content-top img {
+            width: 50px;
+            height: 50px;
+            float: left;
+            border-radius: 50%;
+        }
+
+        .arcitle-list .content-top .content-top-right {
+            left: 8px;
+            position: relative;
+            top: 8px;
+        }
+
+            .arcitle-list .content-top .content-top-right p {
+                line-height: 20px;
+            }
+
+                .arcitle-list .content-top .content-top-right p:nth-child(1) {
+                    font-weight: 600;
+                }
+
+                .arcitle-list .content-top .content-top-right p:nth-child(2) {
+                    font-size: 12px;
+                    color: #999999;
+                }
+
+        .arcitle-list .content-top .send-time {
+            position: absolute;
+            right: 15px;
+            font-size: 12px;
+            top: 10px;
+            color: #999999;
+        }
+
+    .arcitle-list .content-body {
+        padding: 5px 20px;
+    }
+
+    .arcitle-list .content-img {
+        width: calc(100% - 20px);
+        margin: 0 auto;
+        display: block;
+        border-radius: 3px;
+    }
+
+    .arcitle-list .content-foot {
+        text-align: right;
+        overflow: hidden;
+        float: right;
+        padding-right: 20px;
+    }
+
+        .arcitle-list .content-foot img {
+            width: 15px;
+            position: relative;
+            top: 2px;
+        }
+
+        .arcitle-list .content-foot .single {
+            float: left;
+            font-size: 13px;
+            color: #999;
+            padding: 8px 0;
+            margin-left: 10px;
+        }
+/* 置购品 */
+.litt-nav {
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+    margin-top: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+    .litt-nav li {
+        float: left;
+        padding: 8px 0;
+        width: 50%;
+        text-align: center;
+        list-style:none;
+    }
+
+        .litt-nav li a {
+            color: #999;
+        }
+
+        .litt-nav li .active {
+            border-bottom: 3px solid rgb(215, 191, 153);
+            color: rgb(215, 191, 153);
+            /*padding-bottom: 8px;*/
+        }

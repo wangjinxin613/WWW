@@ -1,0 +1,108 @@
+﻿.news-head {
+    padding: 9px 0 5px;
+    text-align: center;
+    border-bottom: 1px solid #d0b386;
+    background: #f8f8f8;
+    height: 29px;
+}
+
+    .news-head a {
+        padding: 5px 0;
+        color: #777;
+    }
+
+    .news-head .active {
+        border-bottom: 2px solid rgb(215, 191, 153);
+        color: rgb(215, 191, 153);
+    }
+
+.new-head {
+    width: 100%;
+    background: #fff;
+    overflow: hidden;
+}
+
+    .new-head li {
+        float: left;
+        position: relative;
+        padding: 10px 0;
+        text-align: center;
+        width: 45%;
+        list-style:none;
+    }
+
+        .new-head li:nth-child(1) {
+            text-align: right;
+            padding-right: 10px;
+        }
+
+        .new-head li:nth-child(2) {
+            text-align: left;
+            padding-left: 10px;
+        }
+
+        .new-head li .active {
+            color: rgb(215, 191, 153);
+            border-bottom: 2px solid rgb(215, 191, 153);
+            padding-bottom: 5px;
+        }
+.new-notice {
+    background: red;
+    width: 7px;
+    height: 7px;
+    border-radius: 100px;
+    position: absolute;
+    right: 5px;
+    top: 11px;
+}
+
+.new-notice1 {
+    background: red;
+    width: 7px;
+    height: 7px;
+    border-radius: 100px;
+    position: absolute;
+    left: 40px;
+    top: 11px;
+}
+
+.notice-list {
+    /*background: #fff;*/
+    width: 100%;
+}
+
+    .notice-list p {
+        padding: 0px 2px;
+        /*border-bottom: 1px solid #eee;*/
+        vertical-align: middle;
+        /*line-height: 40px;
+        height: 40px;*/
+        /*background-image: url("../../icon/right.png");
+        background-repeat: no-repeat;
+        background-position: right 2px center;
+        background-size: 15px;*/
+    }
+
+    .notice-list img {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        /*margin-top: 9px;*/
+    }
+    .notice-list p span {
+        margin-left: 28px;
+    }
+    .notice-list .new {
+        background: rgb(210,30,6);
+        float: right;
+        display: block;
+        height: 18px;
+        width: 18px;
+        position: relative;
+        right: 20px;
+        text-align: center;
+        color: #fff;
+        border-radius: 100px;
+        top: 3px;
+        font-size: 13px;
+    }

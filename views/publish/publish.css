@@ -1,0 +1,47 @@
+﻿
+
+.publish-list {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+    .publish-list .single {
+        width: 30vw;
+        text-align: center;
+        float: left;
+        margin-bottom: 30px;
+    }
+
+    .publish-list img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .publish-list .img {
+        padding: 17.5px;
+        width: 40px;
+        height: 40px;
+        margin-left: calc((28vw - 40px)/2);
+        vertical-align: middle;
+        background: rgb(215,191,153);
+        border-radius: 50px;
+    }
+
+    .publish-list p {
+        margin: 5px  0 0 28px;
+    }
+
+.publish-close {
+    text-align: center;
+    margin: 100px 0 50px 0;
+}
+
+    .publish-close img {
+        width: 20px;
+        height: 20px;
+        background: #ccc;
+        border-radius: 100px;
+        padding: 8px;
+    }

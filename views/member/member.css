@@ -1,0 +1,398 @@
+﻿.setting {
+    width: 30px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.index_head {
+    text-align: center;
+}
+
+    .index_head img {
+        width: 80px;
+        box-shadow: 0 0 5px #000;
+        height: 80px;
+        border-radius: 100px;
+        margin-top: 40px;
+    }
+
+    .index_head .tip {
+        font-size: 10px;
+        margin-top: 7px;
+    }
+
+    .index_head .p1 {
+        font-weight: 600;
+    }
+
+    .index_head .tip span {
+        font-size: 10px;
+        padding: 2px 5px;
+        color: #666;
+        margin-left: 5px;
+        border: 1px dotted #999;
+    }
+
+    .index_head .p2 {
+        margin-top: 7px;
+        color: #666;
+        font-size: 12px;
+    }
+
+.member_box {
+    background: #fff;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 15px;
+    border-bottom: 1.5px solid #efefef;
+}
+
+    .member_box input {
+        border: 0;
+        margin-left: 15px;
+        width: 70%;
+        outline: none;
+    }
+
+.margin10 {
+    margin-top: 8px;
+}
+
+.member_btn {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: red;
+    width: 100%;
+    border: 0;
+    font-size: 15px;
+    font-weight: 600;
+    background: #fff;
+    margin-top: 10px;
+}
+
+.index_status {
+    background: #fff;
+}
+
+    .index_status .single {
+        float: left;
+        width: 33%;
+        padding: 8px 0;
+        text-align: center;
+    }
+
+        .index_status .single p:first-child {
+            color: rgb(215, 191, 153);
+        }
+
+.my_order {
+    background: #fff;
+    padding: 0 5px;
+}
+
+    .my_order .p1 {
+        font-weight: 500;
+        padding: 5px 10px;
+        border-bottom: 1px solid #efefef;
+        background: url("../../icon/you.png");
+        background-size: 20px;
+        background-repeat: no-repeat;
+        background-position: right center;
+    }
+
+        .my_order .p1 a {
+            color: #707070;
+            font-weight: 500;
+            font-size: 12px;
+            float: right;
+            margin-top: 3px;
+            margin-right: 10px;
+        }
+
+.order_status {
+    width: 100%;
+    padding: 8px 0;
+}
+
+    .order_status .single {
+        float: left;
+        text-align: center;
+        width: 25%;
+        line-height: 15px;
+    }
+
+    .order_status p {
+        font-size: 12px;
+    }
+
+    .order_status .single img {
+        width: 22px;
+    }
+
+.my_yue {
+    width: 100%;
+}
+
+    .my_yue .single {
+        float: left;
+        padding: 10px 0;
+        font-size: 12px;
+        text-align: center;
+        width: 33.33%;
+    }
+
+        .my_yue .single p {
+            font-size: 13px;
+        }
+
+.index_box {
+    width: 100%;
+    background: #fff;
+}
+
+    .index_box .single {
+        float: left;
+        text-align: center;
+        width: 25%;
+        padding: 8px 0;
+        border-bottom: 1px solid #efefef;
+        line-height: 15px;
+    }
+
+    .index_box p {
+        font-size: 12px;
+    }
+
+    .index_box .single img {
+        width: 22px;
+        height: 22px;
+    }
+
+.noborder {
+    border: 0 !important;
+}
+
+/** 我的分享 */
+.share-head {
+    width: 100%;
+    padding: 10px 0;
+    background: #fff;
+    width: 50vw;
+    float: left;
+    text-align: center;
+}
+
+    .share-head a {
+        color: #666;
+    }
+
+    .share-head .active {
+        padding: 10px 0;
+        color: rgb(215, 191, 153);
+        border-bottom: 2px solid rgb(215, 191, 153);
+    }
+
+.share-head-index {
+    width: 100vw;
+}
+
+.share-list {
+    margin-top: 8px;
+    background: #fff;
+}
+
+    .share-list .img {
+        width: 100vw;
+        height: 180px;
+    }
+
+.share-list-ms {
+    height: 35px;
+    line-height: 35px;
+    padding: 0 10px;
+}
+
+    .share-list-ms img {
+        width: 20px;
+        vertical-align: text-bottom;
+        line-height: 0;
+    }
+
+    .share-list-ms span {
+        float: right;
+        margin-right: 35px;
+        margin-top: 5px;
+    }
+
+/** 我的关注页面  **/
+.follow-list {
+    height: 70px;
+    line-height: 70px;
+    background: #fff;
+    margin-top: 8px;
+    padding: 0 15px;
+}
+
+    .follow-list img {
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        vertical-align: middle;
+        float: left;
+        margin-top: 10px;
+    }
+
+.follow-msg {
+    float: left;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.follow-list p {
+    line-height: 20px;
+}
+
+.follow-list .p1 {
+    font-size: 13px;
+}
+
+.follow-list .p2 span {
+    font-size: 10px;
+    padding: 2px 2px 1px 2px;
+    border: 1px dashed #666;
+    color: #666;
+    margin-right: 3px;
+    border-radius: 3px;
+}
+
+.follow-list .p3 {
+    font-size: 12px;
+    color: #666;
+}
+
+.follow-status {
+    float: right;
+    font-size: 12px;
+    color: #333;
+    background: #eee;
+    height: 24px;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 3px 15px;
+}
+/** 我的账户 **/
+.account-head {
+    padding: 20px 15px 10px 15px;
+}
+
+    .account-head .p1 {
+        font-weight: 600;
+    }
+
+    .account-head .p2 {
+        font-weight: 700;
+        font-size: 35px;
+        text-align: center;
+        color: rgb(255,108,108);
+        padding: 30px 0;
+    }
+/** 提现 **/
+.tx-list {
+    margin-top: 8px;
+    background: #fff;
+}
+
+    .tx-list .p1 {
+        color: #666;
+        padding: 8px 15px;
+        font-size: 12px;
+    }
+
+    .tx-list input {
+        padding: 2px 15px 5px 15px;
+        font-size: 16px;
+        border: 0;
+        width: 100vw;
+        border-bottom: 1px solid #eee;
+    }
+
+    .tx-list .p1 span {
+        float: right;
+        color: rgb(255,108,108);
+        font-size: 12px;
+    }
+
+.tx-p {
+    font-size: 12px;
+    padding: 8px 15px;
+    color: #666;
+}
+.baocun-btn {
+    width: 90%;
+    margin-left: 5%;
+    background: rgb(37,37,37);
+    color: #fff;
+    border: 0;
+    padding: 8px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+/** 支付绑定 **/
+.pay-list {
+    margin-top: 8px;
+    padding: 5px 15px;
+    background: #fff;
+    background-image: url("../icon/right.png");
+    background-position: right 15px center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+
+    .pay-list .p2 {
+        color: #666;
+    }
+
+    .pay-list img {
+        width: 15px;
+        vertical-align: text-top;
+    }
+/** 我的保证金 **/
+.bzj-head {
+    background: #fff;
+}
+
+    .bzj-head .single {
+        width: calc(50vw - 0.5px);
+        float: left;
+        padding: 10px 15px;
+    }
+
+    .bzj-head p {
+        line-height: 30px;
+    }
+
+    .bzj-head .p3 {
+        font-size: 12px;
+        color: #666;
+    }
+
+    .bzj-head .p1 {
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .bzj-head .p2 {
+        color: rgb(255,108,108);
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .bzj-head .left {
+        border-right: 1px solid #eee;
+    }
+
+    .bzj-head .right {
+        text-align: right;
+    }

@@ -1,0 +1,241 @@
+﻿.designer-list {
+    width: 100%;
+}
+
+    .designer-list .header {
+        height: 80px;
+        background: #fff;
+        /*line-height: 80px;*/
+    }
+
+        .designer-list .header img {
+            width: 60px;
+            height: 60px;
+            float: left;
+            margin: 10px 15px;
+        }
+
+        .designer-list .header .right {
+            /*float: left;*/
+            padding-top: 10px;
+        }
+
+            .designer-list .header .right .p1 {
+                font-size: 15px;
+                color: rgb(215, 191, 153);
+                padding: 3px 0;
+            }
+
+            .designer-list .header .right .p2 {
+                font-size: 13px;
+                padding: 3px 0;
+            }
+
+            .designer-list .header .right .p3 span {
+                font-size: 10px;
+                padding: 1px 3px;
+                border: 1px dotted #999;
+                margin-right: 5px;
+            }
+
+            .designer-list .header .right .p1r {
+                float: right;
+                margin-right: 15px;
+                border: 1px solid #999;
+                padding: 4px 5px;
+                border-radius: 5px;
+                font-size: 12px;
+            }
+
+.mes_tu {
+    margin-top: 8px;
+    margin-left: 0 !important;
+}
+
+    .mes_tu img {
+        height: 120px !important;
+    }
+
+.designer-detail-headimg {
+    width: 100%;
+}
+
+    .designer-detail-headimg img {
+        width: 100%;
+        height: 180px;
+    }
+
+.touxiang {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    text-align: center;
+    margin-top: -45px;
+    margin-left: calc(50% - 30px);
+    z-index: 100;
+}
+
+.designer-detail-head1 {
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+    .designer-detail-head1 .p1 {
+        font-size: 15px;
+        color: rgb(215, 191, 153);
+    }
+
+    .designer-detail-head1 .p1 {
+    }
+
+    .designer-detail-head1 .p3 span {
+        font-size: 10px;
+        padding: 2px 3px 0 3px;
+        margin-left: 3px;
+        border: 1px dotted #777;
+    }
+
+    .designer-detail-head1 p {
+        font-size: 12px;
+        color: #777;
+        line-height: 20px;
+    }
+
+    .designer-detail-head1 .p5 {
+    }
+
+        .designer-detail-head1 .p5 a {
+            padding: 3px 10px;
+            border: 1px solid #777;
+            font-size: 12px;
+            border-radius: 5px;
+            color: #777;
+        }
+
+.designer-des_list {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    background: #fff;
+}
+
+    .designer-des_list .zhutu {
+        width: 100%;
+        height: auto;
+    }
+
+    .designer-des_list p {
+        padding-top: 10px;
+    }
+
+    .designer-des_list .icon {
+        width: 20px;
+        height: 20px;
+    }
+
+.designer-detail-footer {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: rgb(215, 191, 153);
+    background: #fff;
+    padding: 10px 0;
+    /*height:60px;*/
+}
+
+    .designer-detail-footer .single {
+        padding: 3px 20px;
+        border: 1px solid rgb(215, 191, 153);
+        border-radius: 5px;
+    }
+
+    .designer-detail-footer .left {
+        float: left;
+        margin-left: 10px;
+    }
+
+    .designer-detail-footer .right {
+        float: right;
+        margin-right: 10px;
+    }
+
+    .designer-detail-footer .single img {
+        width: 15px;
+        margin-top: -2px;
+        margin-right: 5px;
+    }
+/** 商品详情页 **/
+.designer-detail-head {
+    /*position: absolute;*/
+    z-index: 100;
+}
+
+    .designer-detail-head .left {
+        position: absolute;
+        top: 15px;
+        left: 10px;
+        background: #999;
+        border-radius: 100px;
+        height: 30px;
+        line-height: 30px;
+        width: 30px;
+        padding-right: 2px;
+        text-align: center;
+        z-index: 1000;
+    }
+
+    .designer-detail-head .right {
+        position: absolute;
+        top: 15px;
+        right: 10px;
+        height: 30px;
+        line-height: 30px;
+        width: 30px;
+        text-align: center;
+        background: #999;
+        border-radius: 100px;
+        z-index: 1000;
+    }
+
+    .designer-detail-head img {
+        width: 20px;
+    }
+
+.designer-detail-title {
+    background: #fff;
+    padding: 10px 15px;
+}
+
+    .designer-detail-title p {
+        font-size: 15px;
+    }
+
+    .designer-detail-title .price {
+        text-align: right;
+        color: rgb(255,108,108);
+        padding: 5px 0;
+        font-size: 13px;
+    }
+
+.designer-jiesao {
+    background: #fff;
+}
+
+    .designer-jiesao .title {
+        font-size: 14px;
+        height: 30px;
+        text-align: center;
+        width: 100%;
+        border: 1px solid #F7F7F7;
+        line-height: 30px;
+    }
+
+    .designer-jiesao .detail {
+        font-size: 12px;
+        text-indent: 2em;
+        line-height: 20px;
+        padding: 8px;
+    }

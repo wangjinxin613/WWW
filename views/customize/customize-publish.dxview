@@ -1,0 +1,67 @@
+<div data-options="dxView : { name: 'customizepublish', title: '定制发布', pane: 'master'} ">
+    <div data-bind="dxCommand: { onExecute: '#_back', id: 'cancel',  icon: 'close',showText:false }"></div>
+    <div data-bind="dxCommand: { onExecute: refreshList, id: 'refresh', title: 'Refresh', icon: 'refresh' }"></div>
+    <div data-options="dxContent : { targetPlaceholder: 'content' } " class="dx-content-background dx-form-background">
+
+        <div class="ry">
+            <div class="tab-trans" data-bind="dxTabs: tabOptions"></div>
+        </div>
+        <div data-bind="dxScrollView: scrollOptions">
+
+            <div data-bind="dxTextArea:remarkOptions"></div>
+
+            <!--<div class="custom-design">
+                <div data-bind="dxTileView: tileViewOptions"></div>
+            </div>-->
+            <div id="container">
+                <form id="customize-form">
+
+                    <div data-bind="dxFileUploader: uploaderOptions"></div>
+                    <!--<video style="display:none" id="myMedia" controls></video>-->
+                    <div id="file-list"></div>
+
+                    <div data-bind="if: $root.hasbudget">
+                        <div class="dx-fieldset">
+                            <div class="dx-field">
+                                <div class="dx-field-label">联系人:</div>
+                                <div class="dx-field-value" data-bind="dxTextBox:contactorOptions"></div>
+                            </div>
+                            <div class="dx-field">
+                                <div class="dx-field-label">手机号:</div>
+                                <div class="dx-field-value" data-bind="dxTextBox:mobileOptions"></div>
+                            </div>
+                            <div class="dx-field">
+                                <div class="dx-field-label">预算:</div>
+                                <div class="dx-field-value" data-bind="dxNumberBox:budgetOptions"></div>
+                            </div>
+                            <div class="dx-field">
+                                <div class="dx-field-label">定制天数:</div>
+                                <div class="dx-field-value" data-bind="dxNumberBox:custdaysOptions"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-bind="ifnot: $root.hasbudget">
+                        <div class="dx-fieldset">
+                            <div class="dx-field">
+                                <div class="dx-field-label">联系人:</div>
+                                <div class="dx-field-value" data-bind="dxTextBox:contactorOptions"></div>
+                            </div>
+                            <div class="dx-field">
+                                <div class="dx-field-label">手机号:</div>
+                                <div class="dx-field-value" data-bind="dxTextBox:mobileOptions"></div>
+                            </div>
+                            <div class="dx-field">
+                                <div class="dx-field-label">定制天数:</div>
+                                <div class="dx-field-value" data-bind="dxNumberBox:custdaysOptions"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+        <div data-bind="dxButton:summitOptions" id="customize-button"></div>
+
+    </div>
+</div>

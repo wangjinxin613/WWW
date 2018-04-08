@@ -1,0 +1,26 @@
+<div data-options="dxView : { name: 'appraisaljigou', title: '鉴定机构', pane: 'master'} ">
+    <div data-bind="dxCommand: { onExecute: '#_back', id: 'cancel',  icon: 'close',showText:false }"></div>
+    <div data-bind="dxCommand: { onExecute: refreshList, id: 'refresh', title: 'Refresh', icon: 'refresh' }"></div>
+    <div data-options="dxContent : { targetPlaceholder: 'content' } " class="dx-content-background dx-form-background">
+
+        <div class="appraisal-add-list ">
+            <div class="p noback noborder">
+                <input type="checkbox" style="margin-left:1px;margin-top:3px;"> &nbsp; &nbsp; &nbsp; &nbsp;是否中检
+
+            </div>
+        </div>
+        <div class="appraisal-add-list ">
+            <div class="p" style="padding:15px 0;">
+                添加地址
+            </div>
+            <div class="p noborder p1">
+                <p>请将商品邮寄至：广东省东莞市</p>
+                <p>收件：李先生</p>
+                <p>收货地址：</p>
+            </div>
+        </div>
+        <button class="add-fabu" style="position:relative" >确定</button>
+
+
+    </div>
+</div>

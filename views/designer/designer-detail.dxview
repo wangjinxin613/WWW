@@ -1,0 +1,75 @@
+<div data-options="dxView : { name: 'designerdetail', title: '设计师详情', pane: 'master'} ">
+    <div data-bind="dxCommand: { id: 'create', icon: 'ion ion-share',  modal: true }"></div>
+    <div data-options="dxContent : { targetPlaceholder: 'content' } " class="dx-content-background dx-form-background">
+        <div class="designer-detail-head">
+            <div class="left" data-bind="click: backpage">
+                <span class="ion ion-ios-arrow-back"></span>
+            </div>
+            <div class="right">
+                <span class="ion ion-share"></span>
+            </div>
+        </div>
+
+        <div data-bind="dxScrollView: scrollOptions">
+
+            <div class="designer-detail-headimg">
+                <img src="../images/design/4.jpg" />
+            </div>
+            <img src="../images/cat/headimg.jpg" class="touxiang">
+            <div class="designer-detail-head1" style="background:#fff;z-index: -1;">
+                <p class="p1">设计师_1</p>
+                <p class="p2">广东省设计师</p>
+                <p class="p3">
+                    <span>实名认证</span>
+                    <span>设计师</span>
+                    <span>保证金</span>
+                </p>
+                <p class="p4">315 粉丝&nbsp;&nbsp;&nbsp;&nbsp;关注 10</p>
+                <p class="p5">
+                    <a>
+                        关注
+                        <sup>+</sup>
+                    </a>
+                </p>
+            </div>
+            <div class="designer-jiesao">
+                <div class="title">设计师介绍</div>
+                <div class="detail">广东省珠宝设计师，在国际南洋珠宝首饰设计比赛及香港珠宝设计比赛中，一款名为“江”的铂金首饰摘取到“世界殿堂级”的最高荣誉奖，而设计师也成为首名获得该项荣誉的华人设计师。毕业于李惠利工业学院，年纪轻轻便有丰富的获奖经验，她的优胜设计更已推出零售市场，并受到顾客欢迎。</div>
+
+            </div>
+            <div class="designer-des_list">
+                <img src="../images/design/1.jpg" class="zhutu">
+                <p>
+                    <img src="../icon/shoucang.png" class="icon">
+                    <img src="../icon/liuyan.png" class="icon" style="margin-left:25px;">
+                </p>
+            </div>
+            <div class="designer-des_list">
+                <img src="../images/design/2.jpg" class="zhutu">
+                <p>
+                    <img src="../icon/shoucang.png" class="icon">
+                    <img src="../icon/liuyan.png" class="icon" style="margin-left:25px;">
+                </p>
+            </div>
+            <div class="designer-des_list">
+                <img src="../images/design/3.jpg" class="zhutu">
+                <p>
+                    <img src="../icon/shoucang.png" class="icon">
+                    <img src="../icon/liuyan.png" class="icon" style="margin-left:25px;">
+                </p>
+            </div>
+
+
+
+
+        </div>
+        <div class="designer-detail-footer">
+            <div class="single left" data-bind="click:$root.gotopublish">
+                <img src="../icon/fadan.png">发单
+            </div>
+            <div class="single right" data-bind="click:$root.backpage">
+                <img src="../icon/sixin_1.png">私信
+            </div>
+        </div>
+    </div>
+</div>

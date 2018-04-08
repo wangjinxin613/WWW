@@ -1,0 +1,247 @@
+﻿
+
+.dx-searchbox .dx-texteditor-container {
+    margin-left: 10px;
+   
+}
+
+/*.dx-texteditor-container {
+    border: 1px solid #e2d1b6;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    overflow: hidden;
+}*/
+
+#head-nav-home {
+    margin: 10px 0;
+    border-top: 0;
+    background: #fff;
+}
+
+.next_nav {
+    background: #fbf8f4;
+    /*padding: 20px 0;
+    margin-top: 8px;*/
+    height: 50px;
+}
+
+    .next_nav .single {
+        background: #fbf8f4;
+        float: left;
+        width: 49%;
+        padding: 10px 0;
+    }
+
+        .next_nav .single :last-child {
+            border-left: 1px solid #e2d1b6;
+        }
+
+    .next_nav .left {
+        margin-left: 20px;
+        float: left;
+        border: none;
+    }
+
+    .next_nav .right {
+        text-align: center;
+        border: none;
+    }
+
+    .next_nav img {
+        text-align: center;
+        margin-top: 5px;
+        width: 27px;
+        border: none;
+    }
+
+    .next_nav .p1 {
+        color: #333;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .next_nav .p2 {
+        color: #666;
+        margin-top: 5px;
+        font-size: 10px;
+    }
+
+.dx-tile-content .image-category {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: block;
+    border: 1px solid #e2d1b6;
+}
+
+.home-category {
+    height: 50px;
+    background: #fbf8f4;
+    margin: 8px 0;
+    /*overflow: hidden;*/
+}
+
+.home-seller {
+    height: 86px;
+    background: #fbf8f4;
+    margin: 8px 0;
+    /*overflow: hidden;*/
+}
+
+    .home-seller .image-seller {
+        height: 50px;
+        width: 70px;
+        background-position: center;
+        background-size: cover;
+        /*padding: 10px;*/
+        display: block;
+    }
+
+    .home-seller .p1 {
+        font-size: 12px;
+        height: 20px;
+        width: 70px;
+        padding: 5px 5px;
+        text-align: center;
+        overflow: hidden;
+        background: #fff;
+    }
+
+.home-product {
+    font-size: 14px;
+    height: 220px;
+    background: #fbf8f4;
+}
+
+    .home-product .image-home-product {
+        height: 140px;
+        width: 140px;
+        background-position: center;
+        background-size: cover;
+        /*padding: 10px;*/
+        display: block;
+    }
+
+    .home-product .p1-home-product {
+        font-size: 12px;
+        height: 20px;
+        width: 140px;
+        padding: 5px 8px;
+        text-align: left;
+        overflow: hidden;
+        background: #fff;
+    }
+
+    .home-product .p2-home-product {
+        font-size: 10px;
+        color: #666;
+        height: 15px;
+        background: #fff;
+    }
+
+    .home-product .p3-home-product {
+        /*margin-top: 3px;*/
+        font-size: 12px;
+        background: #fff;
+    }
+
+    .home-product .box-home-product {
+        font-size: 10px;
+        padding: 0 25px;
+        border: 1px solid #999;
+        border-radius: 2px;
+        float: right;
+        background: #fff;
+    }
+
+.home-design {
+    font-size: 14px;
+    height: 195px;
+    background: #fbf8f4;
+}
+
+    .home-design .image {
+        height: 140px;
+        width: 140px;
+        background-position: center;
+        background-size: cover;
+        /*padding: 10px;*/
+        display: block;
+    }
+
+    .home-design .p1 {
+        font-size: 12px;
+        height: 20px;
+        width: 140px;
+        padding: 5px 8px;
+        text-align: left;
+        overflow: hidden;
+        background: #fff;
+    }
+    .home-design .p2 {
+        font-size: 10px;
+        color: #666;
+        height: 15px;
+        text-align: left;
+        padding: 5px 8px;
+        background: #fff;
+    }
+
+.xianzhi {
+    margin-top: 8px;
+}
+
+    .xianzhi .head1 {
+        background: #fff;
+        height: 35px;
+        line-height: 35px;
+        text-align: center;
+        border-bottom: 1px solid #efefee;
+    }
+
+
+
+.designer-list {
+    width: 100%;
+    padding: 0;
+}
+
+    .designer-list img {
+        width: 100%;
+        margin: 0;
+        display: block;
+    }
+
+    .designer-list .content {
+        width: 100%;
+        background: #fff;
+        padding: 8px 15px;
+    }
+
+        .designer-list .content img {
+            position: relative;
+            float: left;
+            width: 50px;
+            height: 50px;
+            border-radius: 100px;
+            top: -30px;
+            padding-right: 5px;
+        }
+
+        .designer-list .content .right p {
+            font-size: 13px;
+            line-height: 20px;
+            height: 20px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+            .designer-list .content .right p:nth-child(2) {
+                color: #666;
+                ;
+                font-size: 12px;
+            }

@@ -1,0 +1,221 @@
+﻿
+.appraisal-list {
+    width: 100%;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+    .appraisal-list .left {
+        width: 20%;
+        float: left;
+        text-align: center;
+    }
+
+        .appraisal-list .left img {
+            width: 50%;
+            text-align: center;
+            height: 15vw;
+            border-radius: 100px;
+            padding: 10px 0;
+        }
+
+    .appraisal-list .right {
+        float: left;
+        padding: 10px 0;
+        width: 80%;
+        padding-right: 15px;
+    }
+
+        .appraisal-list .right .p1 {
+            color: rgb(215, 191, 153);
+        }
+
+        .appraisal-list .right .p2 {
+            color: #999;
+        }
+
+        .appraisal-list .right .img-list {
+            margin-left: -1%;
+        }
+
+            .appraisal-list .right .img-list img {
+                float: left;
+                width: 31.33%;
+                margin: 1%;
+                height: 21.21vw;
+            }
+
+        .appraisal-list .right .last-img {
+            width: calc((80% - 15px)*31.33/100);
+            height: 21.21vw;
+            background: #999;
+            position: absolute;
+            margin-top: -22vw;
+            right: calc(15px + 1%);
+            line-height: 21.21vw;
+            text-align: center;
+            font-size: 25px;
+            color: #fff;
+            opacity: 0.8;
+        }
+
+.appraisal-result {
+    background: #eee;
+    width: 92%;
+    margin-left: 4%;
+}
+
+    .appraisal-result .left img {
+        height: 15vw !important;
+    }
+
+    .appraisal-result .left p {
+        margin-top: -14px;
+        font-size: 10px;
+    }
+
+    .appraisal-result .right p {
+        font-size: 13px;
+    }
+
+        .appraisal-result .right p span {
+            color: rgb(255,108,108);
+            font-size: 13px;
+        }
+
+    .appraisal-result .right .p_4 {
+        font-size: 12px;
+        margin-top: 1px;
+        color: #777;
+    }
+
+        .appraisal-result .right .p_4 em {
+            float: right;
+            font-size: 12px;
+        }
+
+.xz_img {
+    background: #fff;
+    padding: 0 10px 10px 10px;
+}
+
+    .xz_img .add_img {
+    }
+
+    .xz_img img {
+        margin-top: 8px;
+        float: left;
+        margin-left: 6px;
+        width: calc((100% - 30px)/4);
+        height: 21vw;
+    }
+
+.didian {
+    color: #333;
+}
+
+.lbs {
+    padding-top: 15px;
+}
+
+    .lbs img {
+        margin-top: 0px;
+        width: 18px;
+        height: 18px;
+    }
+.appraisal-add-list {
+    background: #fff;
+    margin-top: 10px;
+}
+
+    .appraisal-add-list .p {
+        padding: 10px 0;
+        width: calc(100% - 30px);
+        margin-left: 15px;
+        border-bottom: 1px solid #eee;
+        background: url("../../icon/right.png");
+        background-size: 20px;
+        background-repeat: no-repeat;
+        background-position: right center;
+    }
+
+    .appraisal-add-list .tongcheng {
+        background: none !important;
+    }
+
+    .appraisal-add-list input[type='checkbox'] {
+        width: 15px;
+        height: 15px;
+        line-height: 18px;
+        position: absolute;
+        margin-top: 2px;
+        margin-left: -20px;
+    }
+
+    .appraisal-add-list span {
+        float: right;
+        margin-right: 20px;
+        font-size: 12px;
+        margin-top: 2px;
+        color: rgb(255,108,108);
+    }
+.color_red, .color_red::-webkit-input-placeholder {
+    color: rgb(255,108,108) !important;
+}
+
+select::-ms-expand {
+    visibility: hidden;
+}
+
+.appraisal-add-list .input {
+    border: 0;
+    position: absolute;
+    left: 120px;
+    height: auto;
+    margin-left: 0 !important;
+    display: inline;
+    padding: 0;
+    width: 150px;
+    color: #777;
+    appearance: none;
+    -moz-appearance: none;
+    background: #fff;
+    -webkit-appearance: none;
+}
+
+.add-fabu {
+    background: rgb(215, 191, 153);
+    color: #fff;
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-weight: 700;
+    border: 0;
+}
+
+.add-jigou {
+    width: 100%;
+    padding: 10px 0;
+}
+
+    .add-jigou button {
+        float: left;
+        width: 45%;
+        padding: 5px 0;
+        margin-left: 3.3%;
+        border: 1px solid rgb(215, 191, 153);
+        background: #fff;
+        border-radius: 5px;
+    }
+
+    .add-jigou .active {
+        background: rgb(215, 191, 153);
+        color: #fff;
+    }

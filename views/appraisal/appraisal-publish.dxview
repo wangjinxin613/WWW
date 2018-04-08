@@ -1,0 +1,54 @@
+<div data-options="dxView : { name: 'appraisalpublish', title: '鉴定发布', pane: 'master'} ">
+    <div data-bind="dxCommand: { onExecute: '#_back', id: 'cancel',  icon: 'close',showText:false }"></div>
+    <div data-bind="dxCommand: { onExecute: refreshList, id: 'refresh', title: 'Refresh', icon: 'refresh' }"></div>
+    <div data-options="dxContent : { targetPlaceholder: 'content' } " class="dx-content-background dx-form-background">
+
+        <div data-bind="dxScrollView: scrollOptions">
+
+            <div data-bind="dxTextArea:remarkOptions"></div>
+
+            <!--<div class="custom-design">
+        <div data-bind="dxTileView: tileViewOptions"></div>
+    </div>-->
+            <div id="container">
+                <form id="customize-form">
+
+                    <div data-bind="dxFileUploader: uploaderOptions"></div>
+                    <!--<video style="display:none" id="myMedia" controls></video>-->
+                    <div id="file-list"></div>
+
+
+                    <div class="xz_img">
+                        <div class="lbs">
+                            <span class="ion ion-location location-font"></span>
+                            <span class="didian"> 广东&nbsp;东莞</span>
+                        </div>
+                    </div>
+
+
+                </form>
+
+            </div>
+            <div class="appraisal-add-list">
+                <div class="add-jigou">
+                    <button>在线鉴定</button>
+                    <button onclick="RY.app.navigate('appraisaljigou')">鉴定机构</button>
+                </div>
+                <div class="clear"></div>
+                <div class="dx-fieldset">
+                    <div class="dx-field">
+                        <div class="dx-field-label">品牌: </div>
+                        <div class="dx-field-value" data-bind="dxLookup: brandOptions"></div>
+                    </div>
+                    <div class="dx-field">
+                        <div class="dx-field-label">鉴定费用: </div>
+                        <div class="dx-field-value-static">20.50</div>
+                    </div>
+                </div>
+
+                </div>
+            </div>
+        <div data-bind="dxButton:summitOptions" id="customize-button"></div>
+
+    </div>
+</div>

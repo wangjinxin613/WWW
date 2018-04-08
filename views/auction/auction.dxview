@@ -1,0 +1,51 @@
+<div data-options="dxView : { name: 'auction', title: '拍卖', pane: 'master'} ">
+    <div data-bind="dxCommand: {onExecute:'#auctionpublish',  id: 'create', title: '发布',  modal: true }"></div>
+    <div data-options="dxContent : { targetPlaceholder: 'content' } " class="dx-content-background dx-form-background">
+        <!--<div data-bind="dxToolbar:toolbarOptions"></div>-->
+        <div data-bind="dxScrollView: scrollOptions">
+
+            <div id="gallery" data-bind="dxGallery: galleryOptions"></div>
+            <div class="index-auction">
+                <div class="left">
+                    <h3>0元拍</h3>
+                    <p>0元起拍好物尽享</p>
+                    <img src="../images/cat/paimai1.jpg" />
+                </div>
+                <div class="right">
+                    <div class="single">
+                        <div style="float:left">
+                            <h3>好物趣拍</h3>
+                            <p>好物尽享</p>
+                        </div>
+                        <img src="../images/cat/paimai_2.jpg" />
+                        <div class="clear"></div>
+                    </div>
+
+                    <div class="single">
+                        <div style="float:left">
+                            <h3>历史拍品</h3>
+                            <p>让精品有迹可循</p>
+                        </div>
+                        <img src="../images/cat/paimai_3.jpg" />
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="auction-end">
+                <img src="../icon/huo.png" class="img" />即将结拍
+                <img src="../icon/huo.png" class="img" />
+            </div>
+            <div class='tv-auction'>
+                <div data-bind="dxTileView: endAuctionTvOptions"> </div>
+            </div>
+            <div class="auction-end">
+                全部拍卖
+            </div>
+            <div class='tv-auction'>
+                <div data-bind="dxTileView: endAuctionTvOptions"> </div>
+            </div>
+
+        </div>
+    </div>
+</div>

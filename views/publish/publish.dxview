@@ -1,0 +1,68 @@
+<div data-options="dxView : { name: 'publish', title: 'publish', pane: 'master'} ">
+    <div data-options="dxContent : { targetPlaceholder: 'content' } " class="dx-content-background dx-form-background">
+
+        <div class="publish-list">
+            <!-- ko foreach: icons -->
+            <div class="single" data-bind="click:$root.handleicon">
+                <div class="img">
+                    <img data-bind="attr:{src:$data.icon}">
+                </div>
+                <p data-bind="text:$data.text"></p>
+            </div>
+            <!-- /ko -->
+            <div style="padding-bottom:230px;"></div>
+
+                <div class="publish-close" data-bind="click:handleclose">
+                    <img src="icon/cha.png">
+                </div>
+        </div>
+
+        <!--
+            <div class="publish-list">
+                <div class="single">
+                    <div class="img">
+                        <img src="icon/dingzhi.png">
+                    </div>
+                    <p>定制</p>
+                </div>
+                <div class="single">
+                    <div class="img">
+                        <img src="icon/jianding.png">
+                    </div>
+                    <p>鉴定</p>
+                </div>
+                <div class="single">
+                    <div class="img">
+                        <img src="icon/caigou.png">
+                    </div>
+                    <p>采购</p>
+                </div>
+                <div class="single">
+                    <div class="img">
+                        <img src="icon/xianzhi.png">
+                    </div>
+                    <p>闲置</p>
+                </div>
+                <div class="single">
+                    <div class="img">
+                        <img src="icon/paimai.png">
+                    </div>
+                    <p>拍卖</p>
+                </div>
+                <div class="single">
+                    <div class="img">
+                        <img src="icon/sheji.png">
+                    </div>
+                    <p>设计</p>
+                </div>
+                <div style="padding-bottom:230px;"></div>
+
+                <a href="index.html">
+                    <div class="publish-close">
+                        <img src="icon/cha.png">
+                    </div>
+                </a>
+            </div>
+    -->
+    </div>
+</div>

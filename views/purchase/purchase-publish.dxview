@@ -1,0 +1,25 @@
+<div data-options="dxView : { name: 'purchasepublish', title: '发布找货', pane: 'master'} ">
+    <div data-bind="dxCommand: { onExecute: refreshList, id: 'refresh', title: 'Refresh', icon: 'refresh' }"></div>
+    <div data-options="dxContent : { targetPlaceholder: 'content' } " class="dx-content-background dx-form-background">
+
+        <div data-bind="dxScrollView: scrollOptions">
+            <div class="purchase-add-index">
+                <div class="single">
+                    <img src="../images/cat/paimai1.jpg">
+                    <span>求购翡翠</span>
+                </div>
+                <div class="single">
+                    <img src="../images/cat/paimai_2.jpg">
+                    <span>求购玉石</span>
+                </div>
+                <div class="single">
+                    <img src="../images/cat/paimai_3.jpg">
+                    <span>求购翡翠</span>
+                </div>
+            </div>
+
+        </div>
+        <div data-bind="dxButton:summitOptions" id="customize-button"></div>
+
+    </div>
+</div>

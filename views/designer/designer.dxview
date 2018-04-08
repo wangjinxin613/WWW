@@ -1,0 +1,33 @@
+<div data-options="dxView : { name: 'designer', title: '设计师', pane: 'master'} ">
+    <div data-bind="dxCommand: { onExecute: refreshList, id: 'refresh', title: 'Refresh', icon: 'refresh' }"></div>
+    <div data-options="dxContent : { targetPlaceholder: 'content' } " class="dx-content-background dx-form-background">
+        <div data-bind="dxScrollView: {}">
+
+            <!-- 设计师列表-->
+            <!-- ko foreach: masters -->
+            <div class="designer-list" data-bind="click:$root.handledesign">
+                <div class="header">
+                    <img src="../images/cat/headimg.jpg">
+                    <div class="right">
+                        <p class="p1" data-bind="text:$data.name">
+                        </p>
+                        <p class="p1r">关注</p>
+                        <p class="p2">广东省首饰设计师</p>
+                        <p class="p3">
+                            <span>实名认证</span>
+                            <span>设计师</span>
+                            <span>保证金</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="custom-design">
+                    <div data-bind="dxTileView:$root.tileViewOptions"></div>
+                </div>
+
+            </div>
+            <!-- /ko -->
+
+
+        </div>
+    </div>
+</div>

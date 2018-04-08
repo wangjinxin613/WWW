@@ -1,0 +1,26 @@
+﻿.send_list {
+    background: #fff;
+}
+    .send_list .send_head {
+        border-bottom: 1px solid #eee;
+    }
+
+        .send_list .send_head .single {
+            float: left;
+            width: 50%;
+            text-align: center;
+            padding: 8px 0;
+        }
+
+        .send_list .send_head a {
+            color: #999;
+        }
+
+        .send_list .send_head .active {
+            padding: 10px 0;
+            color: #333;
+            border-bottom: 2px solid rgb(215, 191, 153);
+        }
+.margin10 {
+    margin-top: 10px;
+}

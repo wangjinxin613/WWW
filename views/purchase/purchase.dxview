@@ -1,0 +1,32 @@
+<div data-options="dxView : { name: 'purchase', title: '求购' } ">
+    <div data-bind="dxCommand: {onExecute:'#purchasepublish',  id: 'create', title: '发布',  modal: true }"></div>
+    <div data-options="dxContent : { targetPlaceholder: 'content' } " class="dx-content-background dx-form-background">
+
+        <div class="purchase-tile">
+            <div data-bind="dxTileView: catTileViewOptions">
+                <div class="category-header" data-options="dxTemplate:{ name:'item' }"
+                     data-bind="style:{color:$data.active()>0?'rgb(215, 191, 153)':'black',fontWeight:$data.active()>0?'bold':''}">
+                    <p data-bind="text: $data.text"></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="purchase-list">
+            <div data-bind="dxList:listOptions">
+                <div data-options="dxTemplate : { name: 'item' }">
+                    <div class="single">
+                        <img src="../images/cat/headimg.jpg">
+                        <div class="center">
+                            <p class="p1" data-bind="text:name"></p>
+                            <p class="p2" data-bind="text:text"></p>
+                        </div>
+                        <div class="right">
+                            2018-02-29
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

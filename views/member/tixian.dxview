@@ -1,0 +1,24 @@
+<div data-options="dxView : { name: 'tixian', title: '提现', pane: 'master'} ">
+    <div data-bind="dxCommand: { onExecute: refreshList, id: 'refresh', title: 'Refresh', icon: 'refresh' }"></div>
+    <div data-options="dxContent : { targetPlaceholder: 'content' } " class="dx-content-background dx-form-background">
+
+        <!--<div class="dx-fieldset">
+            <div class="dx-fieldset-header">提现金额</div>
+            <div class="dx-field">
+                <div class="dx-field-label">￥: </div>
+                <div class="dx-field-value" data-bind="dxNumberBox: numOptions"></div>
+            </div>
+            <div class="dx-field">
+                <div class="dx-field-label">手续费: </div>
+                <div class="dx-field-value-static" data-bind="text: fee"></div>
+            </div>
+        </div>-->
+        <div class="tx-list">
+            <p class="p1">可提现金额:<span class="">128.56元</span></p>
+            <input type="text" placeholder="￥">
+            <p class="p1">手续费:￥0.00<span class="">全部提现</span></p>
+        </div>
+        <p class="tx-p">提现手续费为0.6%，6月1日至9月30日期间免费</p>
+        <button class="baocun-btn">确认提现</button>
+    </div>
+</div>

@@ -1,0 +1,47 @@
+<div data-options="dxView : { name: 'news', title: 'news', pane: 'master'} ">
+    <div data-bind="dxCommand: { onExecute: refreshList, id: 'refresh', title: 'Refresh', icon: 'refresh' }"></div>
+    <div data-options="dxContent : { targetPlaceholder: 'content' } " class="dx-list-view dx-content-background" data-bind="dxDeferRendering: { showLoadIndicator: true, staggerItemSelector: '.dx-list-item', animation: 'list-item-rendered', renderWhen: isReady }">
+        <!--<div class="news-head">
+        <a data-bind="text:'通知',css:{active:isNotify()},attr:{href:'javascript:void(0)'},click:function(){handleHeaderClick('1')}"></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a data-bind="text:'聊天',css:{active:!isNotify()},attr:{href:'javascript:void(0)'},click:function(){handleHeaderClick('2')}"></a>
+    </div>-->
+        <div class="new-head" style="border-bottom: 1px solid #eee;">
+            <ul>
+                <li><a class="active">信息</a><div class="new-notice"></div></li>
+                <!--<li><a>聊天</a>
+                <div class="new-notice1"></div>
+                </li>-->
+            </ul>
+        </div>
+
+        <!--<div class="litt-nav">
+            <ul>
+                <li><a data-bind="text:'信息',css:{active:$root.littnav()=='0'},attr:{href:'javascript:void(0)'},click:function(){$root.handleHeaderClick('0')}"></a><div class="new-notice"></div></li>
+                <li><a data-bind="text:'聊天',css:{active:$root.littnav()=='1'},attr:{href:'javascript:void(0)'},click:function(){$root.handleHeaderClick('1')}"></a><div class="new-notice1"></div></li>
+            </ul>
+        </div>-->
+        <div class="notice-list">
+
+            <div data-bind="dxList: listOptions">
+                <div data-options="dxTemplate : { name: 'item' } ">
+                    <div data-bind="if: $root.isNotify()">
+                        <p>
+                            <img data-bind="attr:{src:$data.img}">
+                            <span data-bind="text:$data.text"></span>
+                            <!--<div data-bind="if:$data.bag">
+                            <em class="new" data-bind="text:$data.bag"></em>
+                        </div>-->
+                        </p>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+        <!--<div data-bind="dxScrollView: scrollOptions">
+    </div>-->
+    </div>
+</div>

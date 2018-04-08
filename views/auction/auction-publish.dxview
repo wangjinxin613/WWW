@@ -1,0 +1,81 @@
+<div data-options="dxView : { name: 'auctionpublish', title: '拍卖发布', pane: 'master'} ">
+    <div data-bind="dxCommand: { onExecute: '#_back', id: 'cancel',  icon: 'close',showText:false }"></div>
+    <div data-bind="dxCommand: { onExecute: refreshList, id: 'refresh', title: 'Refresh', icon: 'refresh' }"></div>
+    <div data-options="dxContent : { targetPlaceholder: 'content' } " class="dx-content-background dx-form-background">
+
+        <div data-bind="dxScrollView: scrollOptions">
+
+            <div class="auction">
+                <div class="auction-text-line" data-bind="dxTextBox:captionOptions"></div>
+                <div data-bind="dxTextArea:remarkOptions"></div>
+            </div>
+
+            <!--<div class="custom-design">
+                <div data-bind="dxTileView: tileViewOptions"></div>
+            </div>-->
+            <div id="container">
+                <form id="customize-form">
+
+                    <div data-bind="dxFileUploader: uploaderOptions"></div>
+                    <!--<video style="display:none" id="myMedia" controls></video>-->
+                    <div id="file-list"></div>
+
+
+                    <div class="xz_img">
+                        <div class="lbs">
+                            <!--<img src="../icon/lbs.png">-->
+                            <span class="ion ion-location location-font"></span>
+                            <span class="didian"> 广东&nbsp;东莞</span>
+                        </div>
+                    </div>
+
+
+                </form>
+
+            </div>
+            <!--<div class="appraisal-add-list">-->
+            <div class="ry">
+                <div class="tab-trans" data-bind="dxTabs: tabOptions"></div>
+            </div>
+            <div data-bind="ifnot:isOnePrice">
+                <div class="dx-fieldset">
+                    <div class="dx-field">
+                        <div class="dx-field-label">起拍价: </div>
+                        <div class="dx-field-value" data-bind="dxNumberBox:firstPriceOptions"></div>
+                    </div>
+                    <div class="dx-field">
+                        <div class="dx-field-label">保证金: </div>
+                        <div class="dx-field-value" data-bind="dxNumberBox:bailOptions"></div>
+                    </div>
+                    <div class="dx-field">
+                        <div class="dx-field-label">加价幅度: </div>
+                        <div class="dx-field-value" data-bind="dxNumberBox:increaseRateOptions"></div>
+                    </div>
+                    <div class="dx-field">
+                        <div class="dx-field-label">开拍时间: </div>
+                        <div class="dx-field-value" data-bind="dxDateBox:starttimeOptions"></div>
+                    </div>
+                    <div class="dx-field">
+                        <div class="dx-field-label">结束时间: </div>
+                        <div class="dx-field-value" data-bind="dxDateBox:endtimeOptions"></div>
+                    </div>
+                </div>
+            </div>
+            <div data-bind="if:isOnePrice">
+                <div class="dx-fieldset">
+                    <div class="dx-field">
+                        <div class="dx-field-label">价格: </div>
+                        <div class="dx-field-value" data-bind="dxNumberBox:priceOptions"></div>
+                    </div>
+                    <div class="dx-field">
+                        <div class="dx-field-label">品牌: </div>
+                        <div class="dx-field-value" data-bind="dxLookup: brandOptions"></div>
+                    </div>
+                </div>
+            </div>
+            <!--</div>-->
+        </div>
+        <div data-bind="dxButton:summitOptions" id="customize-button"></div>
+
+    </div>
+</div>

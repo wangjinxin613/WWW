@@ -1,0 +1,55 @@
+<div data-options="dxView : { name: 'idlepublish', title: '闲置发布', pane: 'master'} ">
+    <div data-bind="dxCommand: { onExecute: '#_back', id: 'cancel',  icon: 'close',showText:false }"></div>
+    <div data-bind="dxCommand: { onExecute: refreshList, id: 'refresh', title: 'Refresh', icon: 'refresh' }"></div>
+    <div data-options="dxContent : { targetPlaceholder: 'content' } " class="dx-content-background dx-form-background">
+
+        <div data-bind="dxScrollView: scrollOptions">
+
+            <div class="auction">
+                <div class="auction-text-line" data-bind="dxTextBox:captionOptions"></div>
+                <div data-bind="dxTextArea:remarkOptions"></div>
+            </div>
+
+            <!--<div class="custom-design">
+                <div data-bind="dxTileView: tileViewOptions"></div>
+            </div>-->
+            <div id="container">
+                <form id="customize-form">
+
+                    <div data-bind="dxFileUploader: uploaderOptions"></div>
+                    <!--<video style="display:none" id="myMedia" controls></video>-->
+                    <div id="file-list"></div>
+
+
+                    <div class="xz_img">
+                        <div class="lbs">
+                            <!--<img src="../icon/lbs.png">-->
+                            <span class="ion ion-location location-font"></span>
+                            <span class="didian"> 广东&nbsp;东莞</span>
+                        </div>
+                    </div>
+
+
+                </form>
+
+            </div>
+            
+            <div class="dx-fieldset">
+                <div class="dx-field">
+                    <div class="dx-field-label">价格: </div>
+                    <div class="dx-field-value" data-bind="dxNumberBox:priceOptions"></div>
+                </div>
+                <div class="dx-field">
+                    <div class="dx-field-label">品牌: </div>
+                    <div class="dx-field-value" data-bind="dxLookup: brandOptions"></div>
+                </div>
+                <div class="dx-field">
+                    <div class="dx-field-label">同城交易: </div>
+                    <div class="dx-field-value" data-bind="dxRadioGroup: radioOptions"></div>
+                </div>
+            </div>
+        </div>
+        <div data-bind="dxButton:summitOptions" id="customize-button"></div>
+
+    </div>
+</div>

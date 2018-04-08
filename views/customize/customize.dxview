@@ -1,0 +1,32 @@
+<div data-options="dxView : { name: 'customize', title: '定制', pane: 'master'} ">
+    <div data-bind="dxCommand: {onExecute:'#customizepublish',  id: 'create', title: '发布',  modal: true }"></div>
+    <div data-bind="dxCommand: { onExecute: refreshList, id: 'refresh', title: 'Refresh', icon: 'refresh' }"></div>
+    <div data-options="dxContent : { targetPlaceholder: 'content' } " class="dx-content-background dx-form-background">
+        <div data-bind="dxScrollView: {}">
+
+            <!-- 最新的 -->
+            <div class="new">
+                <div class="message" data-bind="click:$root.gotodetial">
+                    <div class="mes_head">
+                        <img src="../images/cat/headimg.jpg" class="headimg">
+                        <div class="head_img">
+                            <p>会员名称</p>
+                            <p class="p2">1小时前来过</p>
+                            <p class="p3">翡翠玉雕件定制</p>
+                        </div>
+
+                        <div class="clear"></div>
+                    </div>
+                    <div class="custom-design">
+                        <div data-bind="dxTileView: tileViewOptions"></div>
+                    </div>
+
+                    <div class="body">翡翠语调件 翡翠语调件翡翠语调件翡翠语调件翡翠语调件翡翠语调件翡翠语调件</div>
+                    <div class="mes_foot">来自广东</div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>

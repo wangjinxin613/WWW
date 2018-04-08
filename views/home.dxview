@@ -1,0 +1,31 @@
+<div data-options="dxView : { name: 'home', title: 'home', pane: 'master'} ">
+    <!--<div data-bind="dxCommand: { onExecute:handleUser, id: 'cancel', title: 'Add', icon: '/icon/user_active.png', modal: true,showIcon: true,showText: false, }"></div>
+    <div data-bind="dxCommand: {  id: 'create', title: 'Add', icon: 'ion ion-ios-cart-outline', modal: true }"></div>
+    <div data-bind="dxCommand: { onExecute: refreshList, id: 'refresh', title: 'Refresh', icon: 'refresh' }"></div>-->
+    <div data-options="dxContent : { targetPlaceholder: 'content' } " class="dx-content-background dx-form-background">
+        <div data-bind="dxToolbar:toolbarOptions"></div>
+        <div data-bind="dxScrollView: scrollOptions">
+
+            <div id="gallery" data-bind="dxGallery: galleryOptions"></div>
+            <div id="head-nav-home" data-bind="dxNavBar: navbarOptions"></div>
+            <div data-bind="dxList: listOptions">
+                <div data-options="dxTemplate : { name: 'item' } ">
+
+                    <div class="designer-list">
+                        <img src="../images/cat/lunbo.jpg">
+                        <div class="content">
+                            <img src="../images/cat/headimg1.jpg">
+                            <div class="right">
+                                <p>珠宝，爱情的演说家，男人深知他能打动女人的心</p>
+                                <p>资深设计师 / 首饰设计师</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,13 @@
+<div data-options="dxView : { name: 'myorder', title: '我的订单', pane: 'master'} ">
+    <div data-bind="dxCommand: { onExecute: refreshList, id: 'refresh', title: 'Refresh', icon: 'refresh' }"></div>
+    <div data-options="dxContent : { targetPlaceholder: 'content' } " class="dx-content-background dx-form-background">
+
+        <div class="ry">
+            <div class="tab-trans" data-bind="dxTabs: tabOptions"></div>
+        </div>
+        <div data-bind="dxScrollView: scrollOptions">
+
+
+        </div>
+    </div>
+</div>

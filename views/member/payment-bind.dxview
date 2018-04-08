@@ -1,0 +1,14 @@
+<div data-options="dxView : { name: 'paymentbind', title: '支付绑定', pane: 'master'} ">
+    <div data-bind="dxCommand: { onExecute: refreshList, id: 'refresh', title: 'Refresh', icon: 'refresh' }"></div>
+    <div data-options="dxContent : { targetPlaceholder: 'content' } " class="dx-content-background dx-form-background">
+
+        <div class="pay-list">
+            <p class="p1">工商银行</p>
+            <p class="p2">652122601558956265665</p>
+        </div>
+        <div class="pay-list" style="padding:10px 15px;" data-bind="click:handleAddbank">
+            <img src="../icon/jia.png"> &nbsp;&nbsp;添加账户
+        </div>
+
+    </div>
+</div>

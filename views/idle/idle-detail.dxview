@@ -1,0 +1,77 @@
+<div data-options="dxView : { name: 'idledetail', title: '闲置品', pane: 'master'} ">
+    <div data-bind="dxCommand: { id: 'create', icon: 'ion ion-share',  modal: true }"></div>
+    <div data-bind="dxCommand: { onExecute: refreshList, id: 'refresh', title: 'Refresh', icon: 'refresh' }"></div>
+    <div data-options="dxContent : { targetPlaceholder: 'content' } " class="dx-content-background dx-form-background">
+        <div data-bind="dxScrollView: scrollOptions">
+
+            <!-- 最新的 -->
+            <div class="new">
+                <div class="message">
+                    <div class="mes_head">
+                        <img src="../images/cat/headimg.jpg" class="headimg">
+                        <div class="head_img">
+                            <p>会员名称</p>
+                            <p class="p2">1小时前来过&nbsp;&nbsp;发布于广东东莞</p>
+                        </div>
+
+                        <div class="clear"></div>
+                    </div>
+                    <div class="xz_detail">
+                        <p class="price">
+                            ￥350
+                            <del> ￥735.22</del>
+                        </p>
+                        <div>足金手链，达标足金，28颗白玉髓。有证书和袋子足金手链，达标足金，28颗白玉髓。有证书和袋子足金手链，达标足金，28颗白玉髓。有证书和袋子</div>
+                        <br>
+                    </div>
+                    <div class="custom-design">
+                        <div data-bind="dxTileView: tileViewOptions"></div>
+                    </div>
+
+                </div>
+                <!-- 留言 -->
+                <div class="liuyan_list">
+                    <div class="he">
+                        留言 · 2
+                    </div>
+                    <div class="single">
+                        <img src="../images/cat/headimg.jpg">
+                        <div class="right">
+                            <p class="p1">记得要微笑</p>
+                            <p ckass="p1">不错不错，我很喜欢，很想买</p>
+                            <p class="p2">5小时前</p>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="single">
+                        <img src="../images/cat/headimg.jpg">
+                        <div class="right">
+                            <p class="p1">记得要微笑</p>
+                            <p class="p3">不错不错，我很喜欢，很想买,不错不错，我很喜欢，很想买,不错不错，我很喜欢，很想买</p>
+                            <p class="p2">5小时前</p>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="xz_detail_foot">
+            <div class="single">
+                <img src="../icon/dianzan.png">
+                <p>点赞</p>
+            </div>
+            <div class="single">
+                <img src="../icon/liuyan.png">
+                <p>留言</p>
+            </div>
+            <div class="single">
+                <img src="../icon/shoucang.png">
+                <p>收藏</p>
+            </div>
+                <div class="btn1">我想要</div>
+        </div>
+    </div>
+</div>

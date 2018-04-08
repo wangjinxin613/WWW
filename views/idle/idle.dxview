@@ -1,0 +1,34 @@
+<div data-options="dxView : { name: 'idle', title: '闲置转让', pane: 'master'} ">
+    <div data-bind="dxCommand: {onExecute:'#idlepublish',  id: 'create', title: '发布',  modal: true }"></div>
+    <div data-bind="dxCommand: { onExecute: refreshList, id: 'refresh', title: 'Refresh', icon: 'refresh' }"></div>
+    <div data-options="dxContent : { targetPlaceholder: 'content' } " class="dx-content-background dx-form-background">
+        <div data-bind="dxScrollView: {}">
+
+            <div id="gallery" data-bind="dxGallery: galleryOptions"></div>
+            <div id="head-nav-home" data-bind="dxNavBar: navbarOptions"></div>
+
+            <div class="tab-trans" data-bind="dxTabs: tabOptions"></div>
+
+            <!-- 最新的 -->
+            <div class="new">
+                <div class="message" data-bind="click:$root.gotodetial">
+                    <div class="mes_head">
+                        <img src="../images/cat/headimg.jpg" class="headimg">
+                        <div class="head_img">
+                            <p>会员名称</p>
+                            <p class="p2">1小时前来过</p>
+                        </div>
+
+                        <div class="clear"></div>
+                    </div>
+                    <div class="custom-design">
+                        <div data-bind="dxTileView: tileViewOptions"></div>
+                    </div>
+
+                    <div class="body">翡翠语调件</div>
+                    <div class="mes_foot">来自广东</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

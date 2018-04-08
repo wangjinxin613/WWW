@@ -1,0 +1,51 @@
+<div data-options="dxView : { name: 'purchasedetail', title: '找货详情', pane: 'master'} ">
+    <div data-bind="dxCommand: { id: 'create', icon: 'ion ion-share',  modal: true }"></div>
+    <div data-bind="dxCommand: { onExecute: refreshList, id: 'refresh', title: 'Refresh', icon: 'refresh' }"></div>
+    <div data-options="dxContent : { targetPlaceholder: 'content' } " class="dx-content-background dx-form-background">
+        <div data-bind="dxScrollView: scrollOptions">
+            <div id="gallery" data-bind="dxGallery: galleryOptions"></div>
+
+            <div class="purchase-list" style="margin:0;">
+                <a href="detail.html">
+                    <div class="single">
+                        <img src="../images/cat/headimg.jpg">
+                        <div class="center">
+                            <p class="p1">会员——1111</p>
+                            <p class="p2">2018-02-29</p>
+                        </div>
+
+                    </div>
+                </a>
+            </div>
+            <div class="detail-name">
+                <p>翡翠玉雕件 翡翠玉雕件</p>
+                <p class="p2">
+                    意向价格：
+                    <span>￥80000</span>
+                </p>
+            </div>
+            <div class="detail-message">
+                <div class="single">
+                    <h2>基本信息</h2>
+                    <p>产品编号：W31234124312</p>
+                    <p>品牌：卡地亚</p>
+                    <p>系列：坦克</p>
+                    <p>性别：男</p>
+                    <p>别名：无</p>
+                </div>
+                <div class="single">
+                    <h2>描述信息</h2>
+                    <p>产品编号：W31234124312</p>
+                    <p>品牌：卡地亚</p>
+                    <p>系列：坦克</p>
+                    <p>性别：男</p>
+                    <p>别名：无</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="foot-btn">
+            我有货
+        </div>
+    </div>
+</div>

@@ -1,0 +1,56 @@
+<div data-options="dxView : { name: 'appraisal', title: '评估与鉴定', pane: 'master'} ">
+    <div data-bind="dxCommand: {onExecute:'#appraisalpublish',  id: 'create', title: '发布',  modal: true }"></div>
+    <div data-bind="dxCommand: { onExecute: refreshList, id: 'refresh', title: 'Refresh', icon: 'refresh' }"></div>
+    <div data-options="dxContent : { targetPlaceholder: 'content' } " class="dx-content-background dx-form-background">
+        <div data-bind="dxScrollView: {}">
+
+            <div class="appraisal-list">
+                <div class="left">
+                    <img src="../images/cat/headimg.jpg">
+                </div>
+                <div class="right">
+                    <p class="p1">匿名用户</p>
+                    <p class="p2">01-28 05:44</p>
+                    <p class="p3">老师您好，帮忙鉴定下真假，谢谢</p>
+                    <div class="img-list">
+                        <img src="../images/cat/zuanshi.jpg">
+                        <img src="../images/cat/feicui.jpg">
+                        <img src="../images/cat/zuanshi.jpg">
+                        <img src="../images/cat/feicui.jpg">
+                        <img src="../images/cat/zuanshi.jpg">
+                        <img src="../images/cat/feicui.jpg">
+                        <img src="../images/cat/zuanshi.jpg">
+                        <img src="../images/cat/feicui.jpg">
+                        <img src="../images/cat/zuanshi.jpg">
+                        <div class="clear"></div>
+                        <div class="last-img">+8</div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="appraisal-result">
+                    <div class="left">
+                        <img src="../images/cat/headimg.jpg">
+                        <p>鉴定师</p>
+                    </div>
+                    <div class="right">
+                        <p class="p_1">
+                            鉴定：
+                            <span>通过</span>
+                        </p>
+                        <p class="p_2">
+                            估价：
+                            <span>300~500</span>元
+                        </p>
+                        <p class="p_3">型号：翡翠玉雕件</p>
+                        <p class="p_3">描述：图片与正品基本无差异，品相通过</p>
+                        <p class="p_4">
+                            图片仅供参考，具体以实物为主
+                            <em>01-30 10:19</em>
+                        </p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

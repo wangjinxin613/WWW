@@ -1,0 +1,17 @@
+<div data-options="dxView : { name: 'myaccount', title: '我的账户', pane: 'master'} ">
+    <div data-bind="dxCommand: { onExecute: refreshList, id: 'refresh', title: 'Refresh', icon: 'refresh' }"></div>
+    <div data-options="dxContent : { targetPlaceholder: 'content' } " class="dx-content-background dx-form-background">
+        <div class="account-head">
+            <p class="p1">可提现余额</p>
+            <p class="p2">￥100.00</p>
+        </div>
+
+        <div data-bind="dxList: listOptions">
+            <div data-options="dxTemplate : { name: 'item' } ">
+                <div data-bind="text: $data.text">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

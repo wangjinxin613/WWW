@@ -1,0 +1,60 @@
+<div data-options="dxView : { name: 'myshare', title: '我的分享', pane: 'master'} ">
+    <div data-bind="dxCommand: { onExecute: refreshList, id: 'refresh', title: 'Refresh', icon: 'refresh' }"></div>
+    <div data-options="dxContent : { targetPlaceholder: 'content' } " class="dx-content-background dx-form-background">
+        <div class="share-head-index">
+            <div class="share-head">
+                <a class="active">已发布</a>
+            </div>
+            <div class="share-head">
+                <a class="">草稿箱</a>
+            </div>
+            <div class="clear"></div>
+        </div>
+
+        <div data-bind="dxScrollView: scrollOptions">
+
+            <!-- 已发布分享列表 -->
+            <div class="share-list">
+                <img src="../images/cat/lunbo.jpg" class="img">
+                <div class="share-list-ms">
+                    翡翠玉雕件
+                    <span>
+                        <img src="../icon/liuyan.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <img src="../icon/shoucang.png">
+                    </span>
+                </div>
+            </div>
+            <div class="share-list">
+                <img src="../images/cat/lunbo.jpg" class="img">
+                <div class="share-list-ms">
+                    翡翠玉雕件
+                    <span>
+                        <img src="../icon/liuyan.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <img src="../icon/shoucang.png">
+                    </span>
+                </div>
+            </div>
+            <div class="share-list">
+                <img src="../images/cat/lunbo.jpg" class="img">
+                <div class="share-list-ms">
+                    翡翠玉雕件
+                    <span>
+                        <img src="../icon/liuyan.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <img src="../icon/shoucang.png">
+                    </span>
+                </div>
+            </div>
+
+            <div class="share-list">
+                <img src="../images/cat/lunbo.jpg" class="img">
+                <div class="share-list-ms">
+                    翡翠玉雕件
+                    <span>
+                        <img src="../icon/liuyan.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <img src="../icon/shoucang.png">
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

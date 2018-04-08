@@ -1,0 +1,68 @@
+<div data-options="dxView : { name: 'productdetail', title: '商品明细', pane: 'master'} ">
+    <div data-bind="dxCommand: { id: 'create', icon: 'ion ion-share',  modal: true }"></div>
+    <div data-bind="dxCommand: { onExecute: refreshList, id: 'refresh', title: 'Refresh', icon: 'refresh' }"></div>
+    <div data-options="dxContent : { targetPlaceholder: 'content' } " class="dx-content-background dx-form-background">
+        <div data-bind="dxScrollView: scrollOptions">
+            <div id="gallery" data-bind="dxGallery: galleryOptions"></div>
+
+            <div class="product-detail-title">
+                <p>翡翠玉雕件 翡翠玉雕件 翡翠玉雕件</p>
+                <p class="price">价格 ￥10000</p>
+            </div>
+            <div class="product-detail-message">
+                <div class="single">
+                    <h2>基本信息</h2>
+                    <p>产品编号：W31234124312</p>
+                    <p>品牌：卡地亚</p>
+                    <p>系列：坦克</p>
+                    <p>性别：男</p>
+                    <p>别名：无</p>
+                </div>
+                <div class="single">
+                    <h2>描述信息</h2>
+                    <p>产品编号：W31234124312</p>
+                    <p>品牌：卡地亚</p>
+                    <p>系列：坦克</p>
+                    <p>性别：男</p>
+                    <p>别名：无</p>
+                </div>
+            </div>
+            <div class="product-detail-user">
+                <img src="../images/cat/headimg.jpg">
+                <div class="right">
+                    <p class="p1">会员_1111</p>
+                    <p class="p2"><span>实名认证</span><span>认证商家</span></p>
+                    <p class="p3">在售 119 | 粉丝 1</p>
+                </div>
+            </div>
+            <div class="product-detail-body">
+                <div class="detail-body-head">
+                    图片详情
+                </div>
+                <div class="body">
+                    <img src="../images/gallery/lb2.jpg">
+                    <img src="../images/gallery/lb3.jpg">
+                    <img src="../images/gallery/lb4.jpg">
+                </div>
+            </div>
+
+        </div>
+        <div class="xz_detail_foot">
+            <div class="single">
+                <img src="../icon/kefu.png">
+                <p>客服</p>
+            </div>
+            <div class="single">
+                <img src="../icon/store.png">
+                <p>店铺</p>
+            </div>
+            <div class="single">
+                <img src="../icon/shoucang.png">
+                <p>收藏</p>
+            </div>
+            <a data-bind= "click:$root.gotocart">
+                <div class="btn1">立即购买</div>
+            </a>
+        </div>
+    </div>
+</div>

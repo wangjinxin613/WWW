@@ -1,0 +1,35 @@
+<div data-options="dxView : { name: 'purchasepublish2', title: '发布找货', pane: 'master'} ">
+    <div data-bind="dxCommand: { onExecute: refreshList, id: 'refresh', title: 'Refresh', icon: 'refresh' }"></div>
+    <div data-options="dxContent : { targetPlaceholder: 'content' } " class="dx-content-background dx-form-background">
+
+        <div data-bind="dxScrollView: scrollOptions">
+
+            <div class="dx-fieldset">
+                <div class="dx-field">
+                    <div class="dx-field-label">标题:</div>
+                    <div class="dx-field-value" data-bind="dxTextBox:captionOptions"></div>
+                </div>
+                <div class="dx-field">
+                    <div class="dx-field-label">价格:</div>
+                    <div class="dx-field-value" data-bind="dxNumberBox:priceOptions"></div>
+                </div>
+                <div class="auction">
+                    <div data-bind="dxTextArea:remarkOptions"></div>
+                </div>
+            </div>
+
+            <div id="container">
+                <form id="customize-form">
+
+                    <div data-bind="dxFileUploader: uploaderOptions"></div>
+                    <!--<video style="display:none" id="myMedia" controls></video>-->
+                    <div id="file-list"></div>
+
+                </form>
+
+            </div>
+        </div>
+        <div data-bind="dxButton:summitOptions" id="customize-button"></div>
+
+    </div>
+</div>
