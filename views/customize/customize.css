@@ -4,7 +4,7 @@
     overflow: hidden;
 }
     .message .body {
-        padding: 3px 15px;
+        padding: 5px 15px;
         padding-bottom: 5px;
         border-bottom: 1px solid #eee;
     }
@@ -213,4 +213,7 @@
         height: 50px;
         line-height: 50px;
         text-align: center;
+    }
+    li{
+        list-style-type: none;
     }

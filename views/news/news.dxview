@@ -26,6 +26,7 @@
             <div data-bind="dxList: listOptions">
                 <div data-options="dxTemplate : { name: 'item' } ">
                     <div data-bind="if: $root.isNotify()">
+                        <div class="noticeList">
                         <p>
                             <img data-bind="attr:{src:$data.img}">
                             <span data-bind="text:$data.text"></span>
@@ -33,6 +34,7 @@
                             <em class="new" data-bind="text:$data.bag"></em>
                         </div>-->
                         </p>
+                        </div>
                     </div>
 
 

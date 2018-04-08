@@ -106,3 +106,15 @@
         top: 3px;
         font-size: 13px;
     }
+    .noticeList{
+        padding: 8px 10px;
+        box-sizing: border-box;
+        background: #fff;
+        width: 100%;
+        position: relative;
+        border-bottom: 1px solid #eee;
+    }
+     .dx-list-item-badge-container{
+        background: #fff !important;
+        border-color: #eee;
+     }

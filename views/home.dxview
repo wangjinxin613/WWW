@@ -22,7 +22,7 @@
             <div data-bind="dxList: listOptions">
                 <div data-options="dxTemplate : { name: 'item' } ">
 
-                    <div class="designer-list">
+                    <div class="designer-list" id="index_list">
                         <img src="../images/cat/lunbo.jpg">
                         <div class="content">
                             <img src="../images/cat/headimg1.jpg">

@@ -14,12 +14,16 @@
 .purchase-list {
     background: #fff;
     margin-top: 10px;
+
 }
 
     .purchase-list .single {
         /*line-height: 70px;
         height: 70px;*/
         overflow: hidden;
+        background: #fff;
+            padding: 0 10px 10px 10px;
+        border-bottom: 1px solid #eee;
     }
 
         .purchase-list .single img {
@@ -33,6 +37,7 @@
         .purchase-list .single .center {
             float: left;
             margin-top: 10px;
+            margin-left: 10px;
         }
 
             .purchase-list .single .center .p1 {

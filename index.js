@@ -190,4 +190,7 @@ $(function () {
         RY.app.on("navigatingBack", onNavigatingBack);
         RY.app.navigate();
     });
+
+    //
+  
 });
