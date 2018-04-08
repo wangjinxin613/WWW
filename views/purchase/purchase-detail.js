@@ -23,7 +23,7 @@
 
     //#region options
     scrollOptions = {
-        height: $(window).height() -44- 45,
+       // height: $(window).height() -44- 45,
     }
 
     galleryOptions = {
