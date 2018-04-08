@@ -6176,8 +6176,9 @@
         }
 
 .dx-list-item-content {
-    margin-bottom: 8px;
-    
+    padding: 8px 10px;
+
+    border-bottom: 1px solid #eee;
 }
 
 .dx-list:not(.dx-list-select-decorator-enabled) .dx-list-item-selected {
