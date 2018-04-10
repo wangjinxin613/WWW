@@ -1713,7 +1713,7 @@
 }
 .dx-placeholder {
   position: absolute;
-  top: 0px !important;
+  top: -2px !important;
   left: 0px;
   max-width: 100%;
   width: auto;
@@ -1744,7 +1744,7 @@
 }
 .dx-texteditor-buttons-container {
   position: absolute;
-  top: 0;
+  top: -2px;
   right: 0;
   width: auto;
   height: 100%;
