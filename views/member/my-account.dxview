@@ -7,9 +7,10 @@
         </div>
 
         <div data-bind="dxList: listOptions">
-            <div data-options="dxTemplate : { name: 'item' } ">
-                <div data-bind="text: $data.text">
-                </div>
+            <div data-options="dxTemplate : { name: 'item' } "   class="setting-list">
+               
+                <p data-bind="text: $data.text"></p>
+              
             </div>
 
         </div>

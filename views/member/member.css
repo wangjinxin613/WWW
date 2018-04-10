@@ -396,3 +396,17 @@
     .bzj-head .right {
         text-align: right;
     }
+
+    /** 设置 **/
+.setting-list{
+
+    background: #fff;
+}
+.setting-list p{
+    padding:10px 15px;
+    background-image: url("/icon/right.png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    border-bottom: 1px solid #eee;
+}

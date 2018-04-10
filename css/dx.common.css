@@ -664,9 +664,9 @@
 .dx-widget *,
 .dx-widget *:before,
 .dx-widget *:after {
-  -webkit-box-sizing: border-box;
+  /*-webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box;
+  box-sizing: border-box;*/
 }
 .dx-item {
   outline: 0;
@@ -961,6 +961,13 @@
   float: none;
   overflow-x: auto;
   overflow-y: hidden;
+}
+.dx-scrollable-native.dx-scrollable-horizontal .dx-scrollable-container::-webkit-scrollba{
+    width: 0;
+    display: none;
+}
+::-webkit-scrollbar{
+  width: 0;
 }
 .dx-scrollable-native.dx-scrollable-both,
 .dx-scrollable-native.dx-scrollable-both .dx-scrollable-container {
@@ -1706,7 +1713,7 @@
 }
 .dx-placeholder {
   position: absolute;
-  top: 0px;
+  top: 0px !important;
   left: 0px;
   max-width: 100%;
   width: auto;

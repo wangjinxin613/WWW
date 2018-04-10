@@ -117,7 +117,7 @@
     }
 
     .xz_detail div {
-        margin-top: -5px;
+        margin-top: 5px;
     }
 
 .liuyan_list {
@@ -200,7 +200,7 @@
         }
 
         .xz_detail_foot .single p {
-            /*margin-top: -8px;*/
+            margin-top: -4px;
             font-size: 12px;
             color: rgb(215, 191, 153);
         }

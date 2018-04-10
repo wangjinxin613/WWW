@@ -47,14 +47,15 @@
         }
 
     .arcitle-list .content-body {
-        padding: 5px 20px;
+        padding: 7px 20px;
+
     }
 
     .arcitle-list .content-img {
         width: calc(100% - 20px);
         margin: 0 auto;
         display: block;
-        border-radius: 3px;
+       
     }
 
     .arcitle-list .content-foot {
@@ -65,7 +66,8 @@
     }
 
         .arcitle-list .content-foot img {
-            width: 15px;
+            
+            height: 15px;
             position: relative;
             top: 2px;
         }
@@ -101,5 +103,5 @@
         .litt-nav li .active {
             border-bottom: 3px solid rgb(215, 191, 153);
             color: rgb(215, 191, 153);
-            /*padding-bottom: 8px;*/
+            padding-bottom: 8px;
         }
